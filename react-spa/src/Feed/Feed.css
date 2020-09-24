@@ -1,0 +1,25 @@
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#newPost {
+    flex: 1;
+    margin: 10px 15vw 10px 15vw;    
+}
+
+.article {
+    background-color: salmon;
+    margin-bottom: 10px;
+}
+
+.text {
+    max-width: 46em;
+}

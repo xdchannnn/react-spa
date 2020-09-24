@@ -11,15 +11,14 @@
   
   #navbar {
     background-color: #282c34;
-    min-height: 2vh;
     display: flex;
     flex-direction: row;
     font-size: calc(10px + 1.5vmin);
     color: white;
+    min-height: 35px;
   }
   
   #navbar > li {
-    outline: red 1px dotted;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +35,7 @@
   }
 
   .search > input {
-      width: 70%;
+    width: 70%;
   }
   
   .sign.in {
