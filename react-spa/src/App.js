@@ -10,12 +10,18 @@ import './App.css';
 import Navbar from './Navbar/Navbar.js';
 import Feed from './Feed/Feed.js';
 
+import store from './App/store';
+import { Provider } from 'react-redux';
+import NewPostPopup from './Feed/NewPostPopup';
+
 function App() {
   return (
-    <HashRouter>
-      <Navbar />
-      <Route path="/" component={Feed} />
-    </HashRouter>
+    <Provider store={store}>
+      <HashRouter>
+        <Navbar />
+          <Route path="/" component={Feed} />
+      </HashRouter>
+    </Provider>
   );
 }
 

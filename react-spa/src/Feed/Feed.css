@@ -10,9 +10,14 @@
     align-self: center;
 }
 
-#newPost {
+#newPostContainer {
+    display: flex;
     flex: 1;
     margin: 10px 15vw 10px 15vw;    
+}
+
+#newPost {
+    flex: 1;
 }
 
 .article {
